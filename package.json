@@ -1,0 +1,17 @@
+{
+  "name": "cli-js-templates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --no-cache --config jest.config.mjs --passWithNoTests",
+    "test:cov": "NODE_OPTIONS=--experimental-vm-modules npx jest --config jest.config.mjs --coverage",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules npx jest --runInBand --no-cache --config jest.config.mjs --passWithNoTests --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
